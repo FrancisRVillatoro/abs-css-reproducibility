@@ -1,10 +1,11 @@
 cff-version: 1.2.0
 message: >-
   Please cite this software/data release using its Zenodo DOI after the
-  first public deposit. The DOI is intentionally omitted until assigned.
+  first public deposit. The archived v1.0.0 release is identified by its Zenodo DOI.
 title: 'Absolute CSS zero geometry and dynamical realizations: reproducibility code and data'
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.23279032
 date-released: 2026-10-10
 authors:
   - family-names: Villatoro

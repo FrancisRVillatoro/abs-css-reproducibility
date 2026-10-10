@@ -113,21 +113,12 @@ and validates the Zenodo/GitHub metadata. Neither command needs the internet.
 
 ## Citation and release policy
 
-Version `v1.0.0` is a **proposed initial public release tag**, and no DOI has
-been assigned to this package. Once GitHub and Zenodo have archived the
-release, amend `CITATION.cff` or future versions with the actual DOI.
+**Published release:** v1.0.0
 
-See `CITATION.cff` and `.zenodo.json` for citation and deposition metadata.
-The repository license is MIT; **review the copyright/permission information,
-including rights over historical contributed code, before publishing**.
+**Zenodo DOI:** https://doi.org/10.5281/zenodo.23279032
 
-## Deposit
+The GitHub release and its Zenodo archive contain code, data,
+certificates and provenance only; no manuscript is included.
 
-The recommended path is to push this tree to a new GitHub repository, enable
-its Zenodo integration, then create a GitHub **release** for `v1.0.0`.
-Zenodo can then archive the release automatically. Do **not** also upload the
-manual Zenodo ZIP into a separate Zenodo record unless you deliberately want
-two distinct records and DOIs. A self-contained manual ZIP is provided as an
-alternative when GitHub–Zenodo integration is not used.
-
-See [`PUBLICACION_WSL.md`](PUBLICACION_WSL.md) for copy-paste commands.
+The v1.0.0 tag is frozen. Subsequent metadata updates to the
+main branch do not change that archived release.
