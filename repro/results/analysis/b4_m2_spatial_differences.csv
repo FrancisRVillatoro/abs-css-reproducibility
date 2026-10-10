@@ -1,0 +1,4 @@
+N_coarse,N_fine,relative_L2,coarse_dt_ratio,fine_dt_ratio,denominator,alignment,interpolation
+800,1200,0.00015254193348723666,0.025,0.012499999999999999,fine field interpolated onto coarse grid,none,"periodic piecewise linear, fine-to-coarse"
+1200,1600,4.205695024511644e-05,0.012499999999999999,0.0125,fine field interpolated onto coarse grid,none,"periodic piecewise linear, fine-to-coarse"
+800,1600,0.00012924689074222506,0.025,0.0125,fine field interpolated onto coarse grid,none,"periodic piecewise linear, fine-to-coarse"

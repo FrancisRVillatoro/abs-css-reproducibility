@@ -1,0 +1,16 @@
+{
+  "status": "B3_COMPLETE",
+  "B3a": "PASS",
+  "B3b": "PASS_DIAGNOSTIC_SINGULAR_INITIAL_LAYER",
+  "main_findings": [
+    "B3a peak~eps^(p-2), width~eps, central mass~eps^(p-1) for r=1,2; p=1 normalized total mass ->2.",
+    "For an exactly linear crossing, r=1 and r=2 have incompatible pointwise initial zero velocities as eps->0; this is a nonuniform t=0 singular limit.",
+    "Large-domain tests show the transverse zero remains transverse on the clean observed horizon; the apparent early reversal/cusp in L=2 after t~0.015 was outer-scale contamination.",
+    "At fixed t=0.01 in L=8, D12 tends to zero for p=1 and p=1.5."
+  ],
+  "clean_D12_exponents": {
+    "1.0": 1.2132758062656455,
+    "1.5": 1.0615818108880815
+  },
+  "next": "B4 selection: take limits dx->0 then epsilon->0 for r=1,2 and compare with M5/M1/M2."
+}

@@ -1,0 +1,24 @@
+# Generated locally: not part of the public code/data deposit
+outputs/
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+*.so
+*.o
+*.a
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+# Release bundles must be placed OUTSIDE the Git repository
+*-github.zip
+*-zenodo.zip

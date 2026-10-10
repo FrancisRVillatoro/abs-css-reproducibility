@@ -1,0 +1,41 @@
+{
+  "source_archive": "absCSS_reproducibility_r1.zip",
+  "source_archive_sha256": "10732f5eea8eefa0184df07ac2e4bd784aaf5323406bcee411e52f8838f3f3e3",
+  "version_tag": "v1.0.0",
+  "source_files_preserved_unmodified": 779,
+  "source_files_excluded": [
+    "README.md",
+    "RELEASE.json",
+    "SHA256SUMS.txt",
+    "manuscript/figures/fig1a_hamiltonian_agreement.pdf",
+    "manuscript/figures/fig1b_hyperviscous_comparison.pdf",
+    "manuscript/figures/fig2a_css_rh_profiles.pdf",
+    "manuscript/figures/fig2b_css_rh_difference.pdf",
+    "manuscript/figures/fig3_b5_spatial_refinement.pdf",
+    "manuscript/figures/figS1a_b6_extrema.pdf",
+    "manuscript/figures/figS1b_b6_viscosity.pdf",
+    "manuscript/supplement.tex",
+    "repro/code/build_supplement.py",
+    "repro/results/verification_logs/supplement.log"
+  ],
+  "source_file_modifications": [
+    {
+      "path": "repro/code/generate_figures.py",
+      "source_sha256": "e44236a9484065be40b37aac90a54e0d2bf456cc2d877f0bc0f1ad3879d70d26",
+      "release_sha256": "f9b0afc6453c8594a9f27e5bc76d4586d9943e23d658dd7065040e5b8e77338a"
+    },
+    {
+      "path": "repro/code/postprocess_revision.py",
+      "source_sha256": "1407e3946d14b096f16b0ce69484cd5439944538f167bacd718bb4c856ae2fc2",
+      "release_sha256": "2d57d722b34614af934ed56eff5279db72cc3485d22546cee7750bcb4310010c"
+    },
+    {
+      "path": "repro/code/reproduce.py",
+      "source_sha256": "f994cc0f45797ac2d7510a72f867df925a78f991a1947b8aacd568ec915468f9",
+      "release_sha256": "b4ab8ce4d427d73b1ad77ed513e66e6e401e5bb637d2e945cb75e805744fbc98"
+    }
+  ],
+  "all_modifications_are_documentation_or_local_output_path": true,
+  "additional_calculations_performed_for_this_repackage": false,
+  "note": "The original source evidence is unchanged, except that scripts no longer create/require manuscript files. The historical B1-B7 reports are kept verbatim and may contain superseded interpretations."
+}

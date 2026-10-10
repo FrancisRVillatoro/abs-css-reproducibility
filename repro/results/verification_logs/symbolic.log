@@ -1,0 +1,40 @@
+[OK] Euler-Lagrange equation
+[OK] Divergence/classical equivalence
+[OK] Hamiltonian variational derivative
+[OK] Hamiltonian evolution
+[OK] Travelling-wave first integral
+[OK] Width exponent
+[OK] Fixed-width condition l=p+2
+[OK] Compacton constant coefficient
+[OK] Compacton sine coefficient
+[OK] Compacton cosine coefficient
+[OK] Pohozaev kinetic identity
+[OK] Pohozaev potential identity
+[OK] Hamiltonian/velocity identity
+[OK] Scale second variation
+[OK] Pressure-variable flux factorization
+[OK] Pressure PDE expansion
+[OK] Quadratic dispersive energy variable
+[OK] Full Hamiltonian is quadratic in w on l=p+2
+[OK] Conditional interface speed: s' = 8*alpha*vx0**2/p**2
+[OK] Conditional interface law reproduces compacton speed
+[OK] CSS transverse-zero coefficient (s != 0): a*abs_a**p*p*(p - 1) * |s|^(p-2)
+[OK] CSS p=1 jump of the dispersive flux: 2 a|a| (hence 2 alpha a|a| delta_0)
+[OK] Generic zero: B_p ~ Aedge**(p + 1)*r*(r*(p + 2) - 2) * s^(r(p+1)-2), D_x B_p ~ Aedge**(p + 1)*r*(r*(p + 1) - 2)*(r*(p + 2) - 2) * s^(r(p+1)-3)
+[OK] Compacton edge satisfies generic L1 power criterion
+[OK] Same-profile RH/CSS singularity exponent
+[OK] Same-profile unscaled coefficient ratio
+[OK] Same-profile RH constant balance
+[OK] Same-profile RH cos^2 balance
+[OK] Scaled RH/CSS transverse coefficient ratio
+[OK] RH cosine Casimir with kappa^2=a/b
+[OK] RH sine Casimir with kappa^2=a/b
+[OK] RH P-dot local identity
+[OK] RH P is not generically conserved (q=2 example)
+[OK] Regularized transverse-zero profile
+[OK] General r Hamiltonian regularization kernel
+[OK] General regularization kernel has width O(eps/|a|) and peak O(eps^(p-2)), independently of r.
+[OK] p=1 delta-kernel mass
+[OK] Regularization scalings: width O(eps), peak O(eps^(p-2)); p=1 mass tends to 2 a|a|.
+
+All symbolic checks passed.

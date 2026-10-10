@@ -1,0 +1,25 @@
+{
+  "p_lo": "43/40",
+  "p_hi": "27/25",
+  "omega_min": 28,
+  "N": 180,
+  "T": 7,
+  "S_upper": 60.414483171417,
+  "tail_upper": 3.814136164560338e-53,
+  "M_upper": 58.4514666444357,
+  "matching_ratio_upper": 0.29418841269563406,
+  "zplus_lower": 53.70491829825555,
+  "b_upper": 0.3138407683428805,
+  "cone_R": "49/100",
+  "cone_rhs_upper": -0.03622556964473439,
+  "logder_lower": 0.007801679237731866,
+  "pass_certificate": true,
+  "sinc_enclosure": [
+    0.9895833333333333,
+    1.0
+  ],
+  "cos_enclosure": [
+    0.96875,
+    1.0
+  ]
+}

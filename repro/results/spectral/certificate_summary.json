@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "backend": "IEC 60559 binary64 with FE_DOWNWARD, no contraction/fast-math; MPFR 4.2.2 directed transcendental endpoints at 192 bits",
+  "direct_rectangles": 46185,
+  "direct_p_boxes": 125,
+  "low_boxes": 70,
+  "high_boxes": 125,
+  "F1_min": 0.30529660315609974,
+  "direct_tail_max": 0.0004044051685819323,
+  "G_min": 0.03474974501257744,
+  "low_tail_max": 7.103955960950144e-10,
+  "high_Rmatch_max": 0.32986421950314493,
+  "high_b_max": 0.33613149258414393,
+  "high_R": "49/100",
+  "high_cone_rhs_max": -0.008658630975563908,
+  "high_logder_min": 0.007801679237731866,
+  "high_tail_max": 4.2144179229145465e-53,
+  "high_S_max": 69.62520847173697,
+  "exact_rational_coverage": "[1,2] in p; [0,4] in z at low frequency, adjoining finite frequency cells beginning at omega=2, overlap with high frequency for every p-box",
+  "legacy_outputs_used_as_proof": false,
+  "execution_wall_seconds": 45.10967826843262
+}

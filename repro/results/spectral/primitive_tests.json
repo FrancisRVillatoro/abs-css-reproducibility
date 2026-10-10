@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "exact_rational_primitive_tests": 12000,
+  "mpfr_version": "4.2.2",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "precision_for_mpfr_primitives": 192,
+  "pi_enclosure": [
+    3.141592653589793,
+    3.1415926535897936
+  ],
+  "notes": "Tests supplement the primitive enclosure proof; they do not replace it."
+}

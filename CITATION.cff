@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this software/data release using its Zenodo DOI after the
+  first public deposit. The DOI is intentionally omitted until assigned.
+title: 'Absolute CSS zero geometry and dynamical realizations: reproducibility code and data'
+type: software
+version: 1.0.0
+date-released: 2026-10-10
+authors:
+  - family-names: Villatoro
+    given-names: Francisco R.
+    affiliation: Universidad de Málaga
+    orcid: https://orcid.org/0000-0003-4314-6213
+keywords:
+  - compactons
+  - degenerate nonlinear dispersion
+  - weak solutions
+  - Cooper-Shepard-Sodano equation
+  - computer-assisted proof
+  - interval arithmetic
+  - Hamiltonian regularizations
+  - reproducibility
+license: MIT

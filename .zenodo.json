@@ -1,0 +1,26 @@
+{
+  "creators": [
+    {
+      "name": "Villatoro, Francisco R.",
+      "orcid": "0000-0003-4314-6213",
+      "affiliation": "Universidad de Málaga"
+    }
+  ],
+  "title": "Absolute CSS zero geometry and dynamical realizations: reproducibility code and data",
+  "description": "Versioned programs, numerical input meshes, interval spectral evidence and original B1-B7 / extended B5 simulation data supporting research on weak compactons and zero-realization effects in an absolute Cooper-Shepard-Sodano Hamiltonian equation. Manuscript files and typeset papers are deliberately excluded. This is a software and data reproducibility deposit; the new B5 numerical runs were executed in a Linux container, not Picasso.",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "upload_type": "software",
+  "language": "eng",
+  "keywords": [
+    "reproducibility",
+    "compactons",
+    "nonlinear dispersion",
+    "weak solutions",
+    "spectral certificate",
+    "interval arithmetic",
+    "Hamiltonian PDE",
+    "numerical simulation"
+  ]
+}

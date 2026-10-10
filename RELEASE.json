@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "release_tag": "v1.0.0",
+  "date_released": "2026-10-10",
+  "status": "PREPARED_NOT_PUBLISHED",
+  "title": "Absolute CSS zero geometry and dynamical realizations: reproducibility code and data",
+  "creators": [
+    "Francisco R. Villatoro"
+  ],
+  "type": "Software and numerical research data",
+  "license": "MIT (proposed; authors must verify redistribution rights before publishing)",
+  "doi": null,
+  "basis": "absCSS_reproducibility_r1.zip",
+  "basis_sha256": "10732f5eea8eefa0184df07ac2e4bd784aaf5323406bcee411e52f8838f3f3e3",
+  "excluded_content": "No paper or supplement PDF, LaTeX, figures PDFs/PNGs, cover letters, editorial material or manuscript sources.",
+  "spectral_evidence": "Recomputed directed binary64 / MPFR finite certificates; original flawed high-frequency upper bounds are not reused.",
+  "new_b5_runs": "Executed in a Linux container, not on Picasso."
+}

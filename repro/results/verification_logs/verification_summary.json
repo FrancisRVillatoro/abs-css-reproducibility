@@ -1,0 +1,22 @@
+{
+  "all_pass": true,
+  "spectral_recomputed": true,
+  "additional_pde_runs_recomputed": false,
+  "elapsed_seconds": 62.72266483306885,
+  "compiler_flags": [
+    "gcc",
+    "-std=c11",
+    "-O3",
+    "-fPIC",
+    "-shared",
+    "-frounding-math",
+    "-ffp-contract=off",
+    "-fno-fast-math",
+    "interval_core.c",
+    "-lm",
+    "-o",
+    "interval_core.so"
+  ],
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41"
+}

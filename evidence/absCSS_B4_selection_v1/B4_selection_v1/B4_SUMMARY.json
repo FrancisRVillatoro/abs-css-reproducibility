@@ -1,0 +1,27 @@
+{
+  "verdict": "PASS_CONDITIONAL_SELECTION__FAIL_GLOBAL_ALL_REALIZATIONS",
+  "central_p": 1.5,
+  "compacton": {
+    "q_D34_eps": 1.1648141645904455,
+    "q_D3_M1_eps": 1.1236703421868568,
+    "q_D4_M1_eps": 1.2359145206925706
+  },
+  "dipole": {
+    "q_D34_eps": 1.2553576691502226
+  },
+  "zero_p15": {
+    "q_D34_eps_all": 1.1030192532728214,
+    "D34_eps0025": 0.00025571667329268275
+  },
+  "M2": {
+    "p2_control_D_M1_M2": 2.0941733090438376e-09,
+    "p15_fixed_eta1e-5_resolved_N": [
+      800,
+      1200,
+      1600
+    ],
+    "p15_fixed_eta1e-5_D_1200_1600": 4.205695024511644e-05,
+    "p15_eta_removal": "not certified; stiffness/domain restriction for cusp v"
+  },
+  "interpretation": "M3/M4 regularization independence is supported; M5 agrees after h-first limit in central transverse case; M2 is algebraically validated at p=2 but generic p<2 transverse zeros lie outside a pressure-regular class, so an all-five universal-selection statement is not well-posed."
+}

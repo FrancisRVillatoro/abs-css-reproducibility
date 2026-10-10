@@ -1,0 +1,44 @@
+{
+  "status": "OPEN_QUANTITATIVE_SCATTERING_MAP",
+  "phase_locked": true,
+  "robust_topological_result": "both signs survive and reemerge",
+  "threshold_brackets": [
+    {
+      "m": 95,
+      "h": 0.06613879270715355,
+      "eta_fail_or_lower": 0.003,
+      "eta_pass_or_upper": 0.004
+    },
+    {
+      "m": 105,
+      "h": 0.059839860068377014,
+      "eta_fail_or_lower": 0.005,
+      "eta_pass_or_upper": 0.006
+    },
+    {
+      "m": 115,
+      "h": 0.054636393975474665,
+      "eta_fail_or_lower": 0.005,
+      "eta_pass_or_upper": 0.006
+    },
+    {
+      "m": 125,
+      "h": 0.05026548245743669,
+      "eta_fail_or_lower": 0.005,
+      "eta_pass_or_upper": 0.006
+    },
+    {
+      "m": 135,
+      "h": 0.046542113386515455,
+      "eta_fail_or_lower": 0.005,
+      "eta_pass_or_upper": 0.006
+    }
+  ],
+  "validated_dt_ratio_point": {
+    "m": 115,
+    "eta": 0.006,
+    "dt_ratio": 0.1,
+    "status": "PASS"
+  },
+  "conclusion": "No certified vanishing-eta long-time scattering map with current discretization/continuation; apparent admissible eta plateaus near 5e-3--6e-3 on fine phase-locked grids."
+}

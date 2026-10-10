@@ -1,0 +1,21 @@
+{
+  "benchmark": "B6 CSS chase collision",
+  "p": 1.5,
+  "cfast": 3,
+  "cslow": 1,
+  "separation": 8,
+  "t_touch": 0.8584073464102069,
+  "t_centers": 4,
+  "verdict": "PASS_TOPOLOGICAL_SURVIVAL__OPEN_QUANTITATIVE_ETA_TO_ZERO_LONG_TIME",
+  "regularization": "eta=C h^2",
+  "long_time_converged_pair_C15": {
+    "m75": {
+      "umax": 5.039453864905035,
+      "umin": -1.938506868415183
+    },
+    "m85": {
+      "umax": 5.044156663498277,
+      "umin": -1.9399108018410463
+    }
+  }
+}

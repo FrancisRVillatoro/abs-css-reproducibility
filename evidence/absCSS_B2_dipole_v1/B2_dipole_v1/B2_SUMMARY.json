@@ -1,0 +1,50 @@
+{
+  "benchmark": "B2 exact compact dipole",
+  "normalization": {
+    "c": 1,
+    "alpha": "p^2/((p+1)(p+2))",
+    "compacton_half_support": "pi",
+    "dipole_support": "[-2pi,2pi]"
+  },
+  "main_grid": "h=2pi/m with all three interfaces at common half-cell phase 1/2",
+  "M5": {
+    "status": "PASS_ALL_P",
+    "eta": "0.05 h^3",
+    "shape_orders": {
+      "1.0": 2.574917303707319,
+      "1.25": 2.1486359466412854,
+      "1.5": 1.7953549386738992,
+      "1.75": 1.6189456000091633,
+      "2.0": 1.4798528237981046
+    }
+  },
+  "M2_regular_subregime": {
+    "status": "PASS_p_ge_1.5",
+    "eta_v": "0.1 h^2",
+    "shape_orders": {
+      "1.5": 0.9116564449967723,
+      "1.75": 0.9784863917359516,
+      "2.0": 0.9853936479967982
+    }
+  },
+  "M1_M2_cross_p1.5": {
+    "status": "PASS",
+    "direct_relL2_order": 1.9709592117585928,
+    "values": [
+      0.05292007776700549,
+      0.014917962479109762,
+      0.006015329458302086
+    ]
+  },
+  "low_p_pressure": {
+    "status": "FAIL_SELECTION_UNIFORMITY",
+    "notes": "p=1 and p=1.25 require stronger regularization as h decreases; stabilized sequences do not show monotone convergence to the exact dipole."
+  },
+  "M1_p2_T1": {
+    "status": "UNRESOLVED_PREASYMPTOTIC",
+    "notes": "fails before T=1 up to m=251 (~N=1600) at half-cell phase; T=0.5 converges with q~1.90."
+  },
+  "global_B2_gate": "FAIL_GLOBAL_FORMULATION_AGREEMENT",
+  "collision_gate": "CLOSED",
+  "next": "B3 transverse-zero benchmark before B4 selection study"
+}

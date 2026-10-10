@@ -1,0 +1,8 @@
+{
+  "description": "Exact rational mesh chosen from the v5 subdivision; no legacy enclosure or bound is used by the new certificate.",
+  "source_mesh_files": {
+    "direct_combined.csv": "06f1a31717259322640188e198b466a187f2770e7a3f7be246cc1eb4b81245b7",
+    "low_combined.csv": "2af70229ca731acb7d3d868b3c99d082eb66b441688009252bbf98f2972d2ec3"
+  },
+  "decimal_recovery": "Eight decimal places, followed by exact rational parsing. Continuous adjacency and all domain endpoints are independently checked."
+}

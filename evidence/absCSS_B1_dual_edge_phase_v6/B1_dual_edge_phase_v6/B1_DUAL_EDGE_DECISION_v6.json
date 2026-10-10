@@ -1,0 +1,77 @@
+{
+  "benchmark": "B1 exact compacton propagation",
+  "status": "PASS_WITH_RESOLUTION_AND_PHASE_QUALIFICATION",
+  "B2_unlocked": true,
+  "fixed_phase_pair_primary": [
+    0.75,
+    0.25
+  ],
+  "secondary_pair_p2": [
+    0.0,
+    0.75
+  ],
+  "fits": {
+    "M1_p175_L075_R025": {
+      "n_success": 4,
+      "q_shape": 2.043449725153033,
+      "q_Arad": 1.7977453792498617,
+      "h_min": 0.025082576076565215,
+      "h_max": 0.10053096491487339
+    },
+    "M1_p2_L075_R025": {
+      "n_success": 3,
+      "q_shape": 1.959943884217498,
+      "q_Arad": 1.5547507047658287,
+      "h_min": 0.025082576076565215,
+      "h_max": 0.050065221571152084
+    },
+    "M5_p2_L075_R025": {
+      "n_success": 4,
+      "q_shape": 1.4755409592725592,
+      "q_Arad": 1.0172390234834012,
+      "h_min": 0.025082576076565215,
+      "h_max": 0.10053096491487339
+    },
+    "M1_p2_L0_R075_spot": {
+      "n_success": 2,
+      "q_shape": 2.0404659968975176,
+      "q_Arad": 1.5676150220757186,
+      "h_min": 0.024958034983831524,
+      "h_max": 0.04957148171344841
+    }
+  },
+  "domain_control": {
+    "M1": {
+      "L_base": 40.002112035350514,
+      "L_alt": 40.05217725692167,
+      "delta_L": 0.05006522157115256,
+      "shape_relL2_rebuilt_absdiff": 1.1561307466934068e-12,
+      "shape_relL2_rebuilt_reldiff": 8.657137143826547e-12,
+      "fixed050_max_abs_absdiff": 1.4468981568427353e-12,
+      "fixed050_max_abs_reldiff": 4.041337515920627e-12,
+      "drift_P_absdiff": 3.285149929865838e-13,
+      "drift_P_reldiff": 1.7040792107509105e-11,
+      "drift_H_absdiff": 6.96047386394838e-13,
+      "drift_H_reldiff": 1.7535772115493045e-11
+    },
+    "M5": {
+      "L_base": 40.002112035350514,
+      "L_alt": 40.05217725692167,
+      "delta_L": 0.05006522157115256,
+      "shape_relL2_rebuilt_absdiff": 8.868773770931426e-17,
+      "shape_relL2_rebuilt_reldiff": 1.463227434256102e-13,
+      "fixed050_max_abs_absdiff": 7.580741590018647e-16,
+      "fixed050_max_abs_reldiff": 9.046696705485356e-13,
+      "drift_P_absdiff": 1.8847499515944888e-16,
+      "drift_P_reldiff": 5.971496994417549e-12,
+      "drift_H_absdiff": 5.654317617419247e-16,
+      "drift_H_reldiff": 9.301354087516832e-12
+    }
+  },
+  "interpretation": {
+    "M1_p175": "convergent on a dual-edge phase-locked sequence; no finite-amplitude radiation plateau observed",
+    "M1_p2": "coarse-grid resolution threshold (m=63 fails), followed by convergent phase-locked sequences; unsuitable as production solver at coarse/moderate h",
+    "M5_p2": "robust and low-radiation while eta=0.05*h^3 tends to zero; preferred production route",
+    "uniform_phase_claim": "not proved over the continuum of all subcell phase pairs; cardinal initial-defect audit plus two dynamic p=2 phase pairs support the qualification"
+  }
+}

@@ -1,0 +1,6 @@
+('RH_scaled_eta0.003_m190_tol1e-11_dt0.05.json', 'OK', 15.50238823890686, 'executed')
+('RH_scaled_eta0.001_m225_tol1e-11_dt0.05.json', 'OK', 24.551364421844482, 'executed')
+('RH_scaled_eta0.001_m125_tol1e-11_dt0.05.json', 'OK', 7.995067596435547, 'executed')
+('RH_scaled_eta0.001_m225_tol1e-10_dt0.05.json', 'OK', 18.43217897415161, 'executed')
+('RH_scaled_eta0.0003_m300_tol1e-11_dt0.05.json', 'OK', 54.59308075904846, 'executed')
+('RH_scaled_eta0.0003_m450_tol1e-11_dt0.05.json', 'OK', 66.9576826095581, 'executed')

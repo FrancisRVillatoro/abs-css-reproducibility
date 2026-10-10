@@ -1,0 +1,19 @@
+# Preserve code line endings and scientific evidence bytes across WSL/Windows.
+* -text
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.py text eol=lf
+*.c text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.slurm text eol=lf
+*.csv -text
+*.npz binary
+*.log -text
+# Last rules override the generic file extension rules above.
+evidence/** -text
+repro/inputs/** -text
+repro/results/** -text

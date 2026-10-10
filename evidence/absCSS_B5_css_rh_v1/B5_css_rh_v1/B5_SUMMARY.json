@@ -1,0 +1,67 @@
+{
+  "benchmark": "B5 CSS versus matched absolute Rosenau-Hyman comparator",
+  "status": "PASS_SAME_PROFILE_DISCRIMINATION_WITH_LONG_TIME_CSS_OPEN",
+  "central_case": {
+    "p": 1.5,
+    "cfast": 3.0,
+    "cslow": 1.0,
+    "separation": 8.0,
+    "t_touch": 0.8584073464102069,
+    "comparison_time": 1.2
+  },
+  "profile_match": true,
+  "isolated_propagation": "PASS all p=1,1.25,1.5,1.75,2 in short screen; p=1.5 refinement passes",
+  "same_eta_plateau": [
+    {
+      "eta": 0.003,
+      "D_CSS_RH": 0.006727311519975645
+    },
+    {
+      "eta": 0.001,
+      "D_CSS_RH": 0.00661274650653293
+    },
+    {
+      "eta": 0.0003,
+      "D_CSS_RH": 0.006693045526394047
+    }
+  ],
+  "time_control": {
+    "CSS_dt_halving": 2.0402172123780017e-05,
+    "RH_dt_halving": 4.147289500783323e-07,
+    "CSS_RH_fine": 0.0069126736683760215
+  },
+  "RH_unfiltered_P_rel_T1p2": [
+    -0.0008712060303721437,
+    -0.0008716009452540656,
+    -0.0008712280704679857,
+    -0.0008731854434718149
+  ],
+  "p_screen_eta_1e-3": [
+    {
+      "p": 1.0,
+      "D_CSS_RH": 0.0017087993605129287
+    },
+    {
+      "p": 1.25,
+      "D_CSS_RH": 0.003717234004518919
+    },
+    {
+      "p": 1.5,
+      "D_CSS_RH": 0.006913454356555631
+    },
+    {
+      "p": 1.75,
+      "D_CSS_RH": 0.010045081611096417
+    },
+    {
+      "p": 2.0,
+      "D_CSS_RH": 0.014035139087763344
+    }
+  ],
+  "qualifications": [
+    "CSS eta=0.05 h^3 is too aggressive through contact; fixed-eta h convergence must precede eta->0.",
+    "Early post-contact CSS-RH separation is certified at T=1.2; a full T=6 vanishing-regularization CSS limit is not certified.",
+    "RH unfiltered long-time solution develops an increasingly oscillatory dispersive tail; strong convergence of that tail is not certified.",
+    "Smooth RH Pdot identity is not exact across the nonsmooth compacton interaction at the discrete level; use P change plus H/Casimir diagnostics."
+  ]
+}

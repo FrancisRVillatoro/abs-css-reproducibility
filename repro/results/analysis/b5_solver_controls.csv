@@ -1,0 +1,3 @@
+control,relative_L2_unaligned,phase_aligned_L2
+"RH original vs time-scaled stages, m125 eta.001",4.652321340423957e-15,4.6697821640311695e-15
+"RH scaled tol 1e-10 vs 1e-11, m225 eta.001",4.7742547193227865e-14,4.7756428674160444e-14
